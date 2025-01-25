@@ -1,0 +1,11 @@
+{
+    "tooltip": 
+    {
+        "translate": "category.farmingforblockheads.custom_matsu"
+    },
+    "icon": 
+    {
+        "item": "forbidden_arcanus:growing_edelwood"
+    },
+    "sortIndex": 30
+}

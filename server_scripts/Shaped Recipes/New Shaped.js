@@ -18,4 +18,30 @@ event.shaped("allthemodium:allthemodium_axe", ['AA ', 'AR ', ' R '],
     A: "allthemodium:allthemodium_plate",
     R: "allthemodium:allthemodium_rod"
 })
+
+event.shaped("allthemodium:allthemodium_hoe", ['AA ', ' R ', ' R '],
+{
+    A: "allthemodium:allthemodium_plate",
+    R: "allthemodium:allthemodium_rod"
+})
+
+event.shaped("3x reliquary:fertile_lily_pad", ['EEE', 'L  ', '   '],
+{
+    E: "reliquary:fertile_essence",
+    L: "minecraft:lily_pad"
+})
+
+event.shaped("3x reliquary:fertile_essence", ['RGD', 'P  ', '   '], 
+{
+    R: "reliquary:rib_bone",
+    G: "reliquary:catalyzing_gland",
+    D: "minecraft:green_dye",
+    P: "reliquary:slime_pearl"
+})
+
+event.shaped("trident", ['III', ' P ', ' P '],
+{
+    I: "iron_ingot",
+    P: "prismarine_shard"
+})
 })

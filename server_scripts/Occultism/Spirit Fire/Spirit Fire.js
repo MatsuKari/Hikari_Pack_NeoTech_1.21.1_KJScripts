@@ -1,24 +1,26 @@
-ServerEvents.recipes(Recipe => 
+ServerEvents.recipes(Receita => 
 {
-  function Spirit_Fire_Recipes(Ingredient, count_output, Output) 
+  function Spirit_Fire(Ingredient, count_output, Output) 
   {
-    Recipe.custom
-    (
-     {
+    Receita.custom(
+    {
       "type": "occultism:spirit_fire",
       "ingredient": 
       {
-       "item": Ingredient
+        "item": Ingredient
       },
       "result": 
       {
-       "count": count_output,
-       "id": Output
+        "count": count_output,
+        "id": Output
       }
-     }
-    )
+    }
+  )
   }
 
+  Spirit_Fire("cobblestone", 1, "occultism:otherstone")
+
+  Spirit_Fire("oak_log", 1, "occultism:otherworld_ashes")
 // String teste para testar a implementação de submodules no repositório pai
 })
 

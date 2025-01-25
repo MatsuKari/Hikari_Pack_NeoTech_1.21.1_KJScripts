@@ -25,4 +25,10 @@ ServerEvents.recipes(Receita =>
 
   Enriching_Recipes("minecraft:red_mushroom", 1, 2, "minecraft:nether_wart")
 
+  Enriching_Recipes("minecraft:short_grass", 1, 1, "minecraft:wheat_seeds")
+
+  Enriching_Recipes("compass", 1, 1, "twilightforest:maze_map_focus")
+
+  Enriching_Recipes('occultism:raw_iesnium', 1, 3, "occultism:iesnium_dust")
+
 })

@@ -23,6 +23,10 @@ Crushing_Recipes(1, "minecraft:amethyst_block", 4, "minecraft:amethyst_shard")
 Crushing_Recipes(1, "extendedae:entro_crystal", 1, "extendedae:entro_dust")
 
 Crushing_Recipes(1, "minecraft:end_stone", 1, "occultism:crushed_end_stone")
+
+Crushing_Recipes(1, "calcite", 1, "occultism:crushed_calcite")
+
+Crushing_Recipes(1, "blackstone", 1, "occultism:crushed_blackstone")
 /* //Receita de Raw Crimson Iron para Crimson Iron Dust no Crusher (2x)
 Crushing_Recipes("silentgear:raw_crimson_iron", 1, 2, "silentgear:crimson_iron_dust", "Custom_Crimson_Iron_Crushing") */
 
