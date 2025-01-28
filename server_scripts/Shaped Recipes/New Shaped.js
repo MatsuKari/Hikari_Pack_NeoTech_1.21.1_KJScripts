@@ -44,4 +44,11 @@ event.shaped("trident", ['III', ' P ', ' P '],
     I: "iron_ingot",
     P: "prismarine_shard"
 })
+
+event.shaped("kubejs:lava_cell", [' B ', 'LCL', '   '],
+{
+    B: "powah:blazing_crystal_block",
+    L: 'minecraft:lava_bucket',
+    C: "ae2:cell_component_256k"
+})
 })

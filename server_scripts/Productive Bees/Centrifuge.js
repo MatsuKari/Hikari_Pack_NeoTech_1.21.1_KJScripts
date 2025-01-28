@@ -46,6 +46,8 @@ Centrifuge("productivebees:gold", "raw_gold", 5, 5, "productivebees:wax", 1, "pr
 Centrifuge("productivebees:lapis", "lapis_lazuli", 12, 12, "productivebees:wax", 1, "productivebees:centrifuge/gems/honeycomb_lapis")
 
 Centrifuge("productivebees:ender", "ender_pearl", 4 , 4, "productivebees:wax", 1 , "productivebees:centrifuge/integrateddynamics/honeycomb_ender_liquid_chorus")
+
+Centrifuge("productivebees:crystalline", "quartz", 4, 4, "productivebees:wax", 1, "productivebees:centrifuge/gems/honeycomb_quartz")
 })
 
 //ferro, ouro, lapis, ender
