@@ -10,7 +10,8 @@ ServerEvents.recipes(Receita =>
      "count": amount_input,
      "tag": item_input
     },
-    "output": {
+    "output": 
+    {
      "count": count_output,
      "id": item_output
     }
@@ -72,4 +73,6 @@ Enriching_Recipes("c:raw_materials/blazegold", 1 , 3, "justdirethings:blazegold_
 Enriching_Recipes("c:raw_materials/eclipsealloy", 1, 3, "justdirethings:eclipsealloy_ingot")
 
 Enriching_Recipes("c:ores/inferium", 1, 6, "mysticalagriculture:inferium_essence")
+
+Enriching_Recipes("c:raw_materials/uraninite", 1, 2, "powah:uraninite")
 })

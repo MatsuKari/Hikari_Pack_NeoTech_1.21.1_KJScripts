@@ -51,4 +51,13 @@ event.shaped("kubejs:lava_cell", [' B ', 'LCL', '   '],
     L: 'minecraft:lava_bucket',
     C: "ae2:cell_component_256k"
 })
+
+event.shaped("megacells:radioactive_chemical_cell", ['GSG', 'SCS', 'HUH'],
+{
+    G:"mekanismgenerators:reactor_glass",
+    S:"ae2:sky_dust",
+    C:"megacells:radioactive_cell_component",
+    H:"mekanism:hdpe_sheet",
+    U:"mekanism:alloy_atomic"
+})
 })
