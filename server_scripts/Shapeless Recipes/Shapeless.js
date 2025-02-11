@@ -20,6 +20,9 @@ ServerEvents.recipes(Receita =>
   //Receita de Conversão de Diorito feito com Calcita
   Shapeless("minecraft:diorite", "minecraft:calcite")
 
+ //Name Tag Recipe usando chain e iron plate do thermal
+  Shapeless("minecraft:name_tag", ["minecraft:chain", "iron_ingot"])
+
 /*   Shapeless("kubejs:silent_vibranium_plate", ["allthemodium:vibranium_ingot", "c:tools/hammer"])
 
   Shapeless("kubejs:silent_unobtainium_plate", ["allthemodium:unobtainium_ingot", "c:tools/hammer"]) */
