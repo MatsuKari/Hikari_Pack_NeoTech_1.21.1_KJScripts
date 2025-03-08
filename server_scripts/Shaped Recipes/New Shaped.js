@@ -60,4 +60,10 @@ event.shaped("megacells:radioactive_chemical_cell", ['GSG', 'SCS', 'HUH'],
     H:"mekanism:hdpe_sheet",
     U:"mekanism:alloy_atomic"
 })
+event.shaped("allthemodium:alloy_axe", ['UAV', 'UAV', ' A '], 
+{
+    U:"allthemodium:unobtainium_plate",
+    A:"allthemodium:allthemodium_rod",
+    V:"allthemodium:vibranium_plate"
+})
 })

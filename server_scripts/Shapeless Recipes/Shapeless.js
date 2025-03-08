@@ -23,6 +23,14 @@ ServerEvents.recipes(Receita =>
  //Name Tag Recipe usando chain e iron plate do thermal
   Shapeless("minecraft:name_tag", ["minecraft:chain", "iron_ingot"])
 
+  Shapeless("kubejs:silent_vibranium_plate", "allthemodium:vibranium_plate")
+
+  Shapeless("allthemodium:vibranium_plate","kubejs:silent_vibranium_plate")
+
+  Shapeless("kubejs:silent_unobtainium_plate", "allthemodium:unobtainium_plate")
+
+  Shapeless("allthemodium:unobtainium_plate","kubejs:silent_unobtainium_plate")
+
 /*   Shapeless("kubejs:silent_vibranium_plate", ["allthemodium:vibranium_ingot", "c:tools/hammer"])
 
   Shapeless("kubejs:silent_unobtainium_plate", ["allthemodium:unobtainium_ingot", "c:tools/hammer"]) */
