@@ -66,4 +66,16 @@ event.shaped("allthemodium:alloy_axe", ['UAV', 'UAV', ' A '],
     A:"allthemodium:allthemodium_rod",
     V:"allthemodium:vibranium_plate"
 })
+
+event.shaped("4x mekanism:ingot_bronze", ['CCC', 'T  ', '   '],
+{
+    C: "minecraft:copper_ingot",
+    T: 'alltheores:zinc_ingot'
+})
+
+event.shaped("4x mekanism:ingot_bronze", ['CCC', 'T  ', '   '],
+    {
+        C: "minecraft:copper_ingot",
+        T: 'alltheores:aluminum_ingot'
+    })
 })
