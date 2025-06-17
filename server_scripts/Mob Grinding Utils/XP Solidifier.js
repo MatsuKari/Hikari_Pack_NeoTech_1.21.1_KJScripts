@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
  function Solidifying(fluidAmount, item_input ,count_output, item_output)
 {
- Receita.custom({
+ Recipe.custom({
   "type": "mob_grinding_utils:solidify",
   "fluidAmount": fluidAmount,
   "ingredient": 

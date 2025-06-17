@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
   function Bee_Spawning(nest, bee) 
   {
-    Receita.custom
+    Recipe.custom
     ({
         "type": "productivebees:bee_spawning",
         "ingredient": 

@@ -1,6 +1,6 @@
-ServerEvents.recipes(Receita => {
+ServerEvents.recipes(Recipe => {
 function Centrifuge(bee_type, output, output_min, output_max, output2, chance, ID) {
-Receita.custom
+Recipe.custom
 ({
 "type": "productivebees:centrifuge",
 "ingredient": 

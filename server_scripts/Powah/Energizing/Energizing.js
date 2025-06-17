@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
   function Energizing(input1, input2, energy, output, count_output) 
   {
-   Receita.custom(
+   Recipe.custom(
    {
     "type": "powah:energizing",
     "energy": energy,

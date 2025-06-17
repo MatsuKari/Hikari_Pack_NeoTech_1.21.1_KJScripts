@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
   function Shapeless(outputItem, inputs) 
   {
-    Receita.shapeless(outputItem, inputs)
+    Recipe.shapeless(outputItem, inputs)
   }
   Shapeless("2x powah:steel_energized", ["minecraft:iron_ingot", "minecraft:gold_ingot"])
 

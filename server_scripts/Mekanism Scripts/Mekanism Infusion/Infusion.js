@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
-  function Infusing_Recipes(infusion_amount,infusion_type,input_count,input_item,output_count,output_item) 
+  function Infusing(infusion_amount,infusion_type,input_count,input_item,output_count,output_item) 
   {
-    Receita.custom
+    Recipe.custom
     ({
       "type": "mekanism:metallurgic_infusing",
       "chemical_input": 
@@ -24,5 +24,5 @@ ServerEvents.recipes(Receita =>
     })
   }
 
-  Infusing_Recipes(20, "mekanism:redstone", 1, "silentgear:netherwood_sapling", 2, "silentgear:netherwood_sapling" )
+  Infusing(20, "mekanism:redstone", 1, "silentgear:netherwood_sapling", 2, "silentgear:netherwood_sapling" )
 })

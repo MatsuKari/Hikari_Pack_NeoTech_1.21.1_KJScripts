@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
-  function Enriching_Recipes_2(item_input, amount_input,count_output, item_output) 
+  function Enriching_2(item_input, amount_input,count_output, item_output) 
   {
-    Receita.custom
+    Recipe.custom
     ({
     "type": "mekanism:enriching",
     "input":
@@ -17,20 +17,20 @@ ServerEvents.recipes(Receita =>
     })
   }
 
-  Enriching_Recipes_2("minecraft:rotten_flesh", 1, 1,"tombstone:grave_dust")
+  Enriching_2("minecraft:rotten_flesh", 1, 1,"tombstone:grave_dust")
 
-  Enriching_Recipes_2("tombstone:grave_dust", 3, 1, "tombstone:essence_of_undeath")
+  Enriching_2("tombstone:grave_dust", 3, 1, "tombstone:essence_of_undeath")
 
-  Enriching_Recipes_2("silentgear:netherwood_sapling", 1, 2, "silentgear:nether_banana")
+  Enriching_2("silentgear:netherwood_sapling", 1, 2, "silentgear:nether_banana")
 
-  Enriching_Recipes_2("minecraft:red_mushroom", 1, 2, "minecraft:nether_wart")
+  Enriching_2("minecraft:red_mushroom", 1, 2, "minecraft:nether_wart")
 
-  Enriching_Recipes_2("minecraft:short_grass", 1, 1, "minecraft:wheat_seeds")
+  Enriching_2("minecraft:short_grass", 1, 1, "minecraft:wheat_seeds")
 
-  Enriching_Recipes_2("compass", 1, 1, "twilightforest:maze_map_focus")
+  Enriching_2("compass", 1, 1, "twilightforest:maze_map_focus")
 
-  Enriching_Recipes_2('occultism:raw_iesnium', 1, 3, "occultism:iesnium_dust")
+  Enriching_2('occultism:raw_iesnium', 1, 3, "occultism:iesnium_dust")
 
-  Enriching_Recipes_2("powah:uraninite", 1, 3, "mekanism:yellow_cake_uranium")
+  Enriching_2("powah:uraninite", 1, 3, "mekanism:yellow_cake_uranium")
 
 })

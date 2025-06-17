@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita => 
+ServerEvents.recipes(Recipe => 
 {
-  function Mecha_Squeezing_Recipes(item_input, item_output, duration) 
+  function Mechanical_Squeeze(item_input, item_output, duration) 
   {
-    Receita.custom
+    Recipe.custom
     ({
       "type": "integrateddynamics:mechanical_squeezer",
       "input_item": 
@@ -22,12 +22,12 @@ ServerEvents.recipes(Receita =>
     })
   }
 
-Mecha_Squeezing_Recipes("allthemodium:allthemodium_ingot", "kubejs:silent_allthemodium_plate", 20)
+Mechanical_Squeeze("allthemodium:allthemodium_ingot", "kubejs:silent_allthemodium_plate", 20)
 
-Mecha_Squeezing_Recipes("allthemodium:vibranium_ingot", "kubejs:silent_vibranium_plate", 20)
+Mechanical_Squeeze("allthemodium:vibranium_ingot", "kubejs:silent_vibranium_plate", 20)
 
-Mecha_Squeezing_Recipes("allthemodium:unobtainium_ingot", "kubejs:silent_unobtainium_plate", 20)
+Mechanical_Squeeze("allthemodium:unobtainium_ingot", "kubejs:silent_unobtainium_plate", 20)
 
-Mecha_Squeezing_Recipes("allthemodium:allthemodium_plate", "allthemodium:allthemodium_rod", 20)
+Mechanical_Squeeze("allthemodium:allthemodium_plate", "allthemodium:allthemodium_rod", 20)
 
 })

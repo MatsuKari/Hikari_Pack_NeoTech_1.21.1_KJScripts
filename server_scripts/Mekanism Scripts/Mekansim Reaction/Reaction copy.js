@@ -1,8 +1,8 @@
-ServerEvents.recipes(Receita =>
+ServerEvents.recipes(Recipe =>
 {
   function Reaction_Recipes()
   {
-    Receita.custom(
+    Recipe.custom(
     {
       "type": "mekanism:reaction",
       "chemical_input": {
