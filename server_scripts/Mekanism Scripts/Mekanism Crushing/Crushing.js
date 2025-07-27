@@ -14,6 +14,24 @@ ServerEvents.recipes(Recipe => {
           "id": item_output
         }
       })
+
+  }
+
+  function Crushing_Tag(count_input, item_input, count_output, item_output) {
+    Recipe.custom
+      ({
+        "type": "mekanism:crushing",
+        "input":
+        {
+          "count": count_input,
+          "tag": item_input
+        },
+        "output":
+        {
+          "count": count_output,
+          "id": item_output
+        }
+      })
   }
 
   Crushing(1, "minecraft:amethyst_block", 4, "minecraft:amethyst_shard")
@@ -31,6 +49,8 @@ ServerEvents.recipes(Recipe => {
   Crushing(1, "silentgear:azure_electrum_ingot", 1, "silentgear:azure_electrum_dust")
 
   Crushing(1, "silentgear:azure_silver_ingot", 1, "silentgear:azure_silver_dust")
+
+  Crushing_Tag(1, 'enderio:entity_storage', 1, "forbidden_arcanus:spawner_scrap")
   /* //Receita de Raw Crimson Iron para Crimson Iron Dust no Crusher (2x)
   Crushing_Recipes("silentgear:raw_crimson_iron", 1, 2, "silentgear:crimson_iron_dust", "Custom_Crimson_Iron_Crushing") */
 
