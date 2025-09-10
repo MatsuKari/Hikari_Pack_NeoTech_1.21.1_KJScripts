@@ -1,102 +1,102 @@
 ServerEvents.recipes(Recipe => {
-Recipe.shaped("allthemodium:allthemodium_pickaxe", ['PRP', ' R ', ' R '], 
-{
- R: "allthemodium:allthemodium_rod",
- P: "allthemodium:allthemodium_plate"
-})
+    Recipe.shaped("allthemodium:allthemodium_pickaxe", ['PRP', ' R ', ' R '],
+        {
+            R: "allthemodium:allthemodium_rod",
+            P: "allthemodium:allthemodium_plate"
+        })
 
-Recipe.shaped("quarryplus:repeat_tick_module", ['APA', 'PTP', 'APM'],
-{
- A: "minecraft:amethyst_shard",
- P: "minecraft:prismarine_shard",
- T: 'minecraft:potion[potion_contents={potion:"minecraft:water"}]',
- M: "quarryplus:marker"
-})
-
-Recipe.shaped("allthemodium:allthemodium_axe", ['AA ', 'AR ', ' R '],
-{
-    A: "allthemodium:allthemodium_plate",
-    R: "allthemodium:allthemodium_rod"
-})
-
-Recipe.shaped("allthemodium:allthemodium_hoe", ['AA ', ' R ', ' R '],
-{
-    A: "allthemodium:allthemodium_plate",
-    R: "allthemodium:allthemodium_rod"
-})
-
-Recipe.shaped("3x reliquary:fertile_lily_pad", ['EEE', 'L  ', '   '],
-{
-    E: "reliquary:fertile_essence",
-    L: "minecraft:lily_pad"
-})
-
-Recipe.shaped("3x reliquary:fertile_essence", ['RGD', 'P  ', '   '], 
-{
-    R: "reliquary:rib_bone",
-    G: "reliquary:catalyzing_gland",
-    D: "minecraft:green_dye",
-    P: "reliquary:slime_pearl"
-})
-
-Recipe.shaped("trident", ['III', ' P ', ' P '],
-{
-    I: "iron_ingot",
-    P: "prismarine_shard"
-})
-
-Recipe.shaped("kubejs:lava_cell", [' B ', 'LCL', '   '],
-{
-    B: "powah:blazing_crystal_block",
-    L: 'minecraft:lava_bucket',
-    C: "ae2:cell_component_256k"
-})
-
-Recipe.shaped("megacells:radioactive_chemical_cell", ['GSG', 'SCS', 'HUH'],
-{
-    G:"mekanismgenerators:reactor_glass",
-    S:"ae2:sky_dust",
-    C:"megacells:radioactive_cell_component",
-    H:"mekanism:hdpe_sheet",
-    U:"mekanism:alloy_atomic"
-})
-Recipe.shaped("allthemodium:alloy_axe", ['UAV', 'UAV', ' A '], 
-{
-    U:"allthemodium:unobtainium_plate",
-    A:"allthemodium:allthemodium_rod",
-    V:"allthemodium:vibranium_plate"
-})
-
-Recipe.shaped("4x mekanism:ingot_bronze", ['CCC', 'T  ', '   '],
-{
-    C: "minecraft:copper_ingot",
-    T: 'alltheores:zinc_ingot'
-})
-
-Recipe.shaped("4x mekanism:ingot_bronze", ['CCC', 'T  ', '   '],
+    /* Recipe.shaped("quarryplus:repeat_tick_module", ['APA', 'PTP', 'APM'],
     {
-        C: "minecraft:copper_ingot",
-        T: 'alltheores:aluminum_ingot'
-    })
+     A: "minecraft:amethyst_shard",
+     P: "minecraft:prismarine_shard",
+     T: 'minecraft:potion[potion_contents={potion:"minecraft:water"}]',
+     M: "quarryplus:marker"
+    }) */
 
-Recipe.shaped("potionsmaster:allthemodium_oresight_powder", ['EGR', 'APM', '   '],
-    {
-        E: "potionsmaster:ender_powder",
-        G: "glowstone_dust",
-        R: "redstone",
-        A: "allthemodium:allthemodium_dust",
-        P: "potionsmaster:pestle",
-        M: "potionsmaster:tile_mortar"
-    })
+    Recipe.shaped("allthemodium:allthemodium_axe", ['AA ', 'AR ', ' R '],
+        {
+            A: "allthemodium:allthemodium_plate",
+            R: "allthemodium:allthemodium_rod"
+        })
 
-Recipe.shaped("potionsmaster:unobtainium_oresight_powder", ['EGR', 'UPM', '   '],
-    {
-        E: "potionsmaster:ender_powder",
-        G: "glowstone_dust",
-        R: "redstone",
-        U: 'allthemodium:unobtainium_ingot',
-        P: "potionsmaster:pestle",
-        M: "potionsmaster:tile_mortar"
-    })
+    Recipe.shaped("allthemodium:allthemodium_hoe", ['AA ', ' R ', ' R '],
+        {
+            A: "allthemodium:allthemodium_plate",
+            R: "allthemodium:allthemodium_rod"
+        })
+
+    Recipe.shaped("3x reliquary:fertile_lily_pad", ['EEE', 'L  ', '   '],
+        {
+            E: "reliquary:fertile_essence",
+            L: "minecraft:lily_pad"
+        })
+
+    Recipe.shaped("3x reliquary:fertile_essence", ['RGD', 'P  ', '   '],
+        {
+            R: "reliquary:rib_bone",
+            G: "reliquary:catalyzing_gland",
+            D: "minecraft:green_dye",
+            P: "reliquary:slime_pearl"
+        })
+
+    Recipe.shaped("trident", ['III', ' P ', ' P '],
+        {
+            I: "iron_ingot",
+            P: "prismarine_shard"
+        })
+
+    Recipe.shaped("kubejs:lava_cell", [' B ', 'LCL', '   '],
+        {
+            B: "powah:blazing_crystal_block",
+            L: 'minecraft:lava_bucket',
+            C: "ae2:cell_component_256k"
+        })
+
+    Recipe.shaped("megacells:radioactive_chemical_cell", ['GSG', 'SCS', 'HUH'],
+        {
+            G: "mekanismgenerators:reactor_glass",
+            S: "ae2:sky_dust",
+            C: "megacells:radioactive_cell_component",
+            H: "mekanism:hdpe_sheet",
+            U: "mekanism:alloy_atomic"
+        })
+    Recipe.shaped("allthemodium:alloy_axe", ['UAV', 'UAV', ' A '],
+        {
+            U: "allthemodium:unobtainium_plate",
+            A: "allthemodium:allthemodium_rod",
+            V: "allthemodium:vibranium_plate"
+        })
+
+    Recipe.shaped("4x mekanism:ingot_bronze", ['CCC', 'T  ', '   '],
+        {
+            C: "minecraft:copper_ingot",
+            T: 'alltheores:zinc_ingot'
+        })
+
+    Recipe.shaped("4x mekanism:ingot_bronze", ['CCC', 'T  ', '   '],
+        {
+            C: "minecraft:copper_ingot",
+            T: 'alltheores:aluminum_ingot'
+        })
+
+    Recipe.shaped("potionsmaster:allthemodium_oresight_powder", ['EGR', 'APM', '   '],
+        {
+            E: "potionsmaster:ender_powder",
+            G: "glowstone_dust",
+            R: "redstone",
+            A: "allthemodium:allthemodium_dust",
+            P: "potionsmaster:pestle",
+            M: "potionsmaster:tile_mortar"
+        })
+
+    Recipe.shaped("potionsmaster:unobtainium_oresight_powder", ['EGR', 'UPM', '   '],
+        {
+            E: "potionsmaster:ender_powder",
+            G: "glowstone_dust",
+            R: "redstone",
+            U: 'allthemodium:unobtainium_ingot',
+            P: "potionsmaster:pestle",
+            M: "potionsmaster:tile_mortar"
+        })
 })
 
