@@ -51,6 +51,8 @@ ServerEvents.recipes(Recipe => {
   Crushing(1, "silentgear:azure_silver_ingot", 1, "silentgear:azure_silver_dust")
 
   Crushing_Tag(1, 'enderio:entity_storage', 1, "forbidden_arcanus:spawner_scrap")
+
+  Crushing(1, "minecraft:poppy", 4, "minecraft:red_dye")
   /* //Receita de Raw Crimson Iron para Crimson Iron Dust no Crusher (2x)
   Crushing_Recipes("silentgear:raw_crimson_iron", 1, 2, "silentgear:crimson_iron_dust", "Custom_Crimson_Iron_Crushing") */
 

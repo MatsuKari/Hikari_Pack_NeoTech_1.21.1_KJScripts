@@ -19,5 +19,6 @@ ServerEvents.recipes(Recipe => {
     Recipe.remove({ id: "enderio:enchanting/impaling" })
     Recipe.remove({ output: "reliquary:fertile_lily_pad", id: "reliquary:fertile_lily_pad" })
     Recipe.remove({ output: "reliquary:fertile_essence", id: "reliquary:fertile_essence", })
+    Recipe.remove({ output: "mekanism:bio_fuel", input: "minecraft:poppy" })
     //Receita.remove({id: })
 })

@@ -98,5 +98,12 @@ ServerEvents.recipes(Recipe => {
             P: "potionsmaster:pestle",
             M: "potionsmaster:tile_mortar"
         })
+
+
+    /*     Recipe.shaped("minecraft:muddy_mangrove_roots", ['AB ', '   ', '   '],
+            {
+                A: "minecraft:mud",
+                B: "minecraft:mangrove_roots"
+            }) */
 })
 
