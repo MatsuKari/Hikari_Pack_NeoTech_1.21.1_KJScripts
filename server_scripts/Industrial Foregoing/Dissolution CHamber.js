@@ -42,5 +42,26 @@ ServerEvents.recipes(Recipe => {
             })
     }
 
-    Dissoluting("mekanism:pellet_antimatter", "mekanism:pellet_antimatter", "mekanism:pellet_antimatter", "mekanism:pellet_antimatter", "mekanism:pellet_antimatter", "mekanism:pellet_antimatter", "mekanism:pellet_antimatter", "ae2:singularity", 500, "mekanism:brine", "industrialforegoing:infinity_drill", 1, 20)
+    function Dissoluting2(item1, fluidAmount, fluidInput, output, output_count, pTime) {
+        Recipe.custom(
+            {
+                "type": "industrialforegoing:dissolution_chamber",
+                "input": [
+                    {
+                        "item": item1
+                    }
+                ],
+                "inputFluid": {
+                    "amount": fluidAmount,
+                    "fluid": fluidInput
+                },
+                "output": {
+                    "count": output_count,
+                    "id": output
+                },
+                "processingTime": pTime
+            })
+    }
+
+    Dissoluting2("minecraft:glass_bottle", 100, "productivebees:honey", "minecraft:honey_bottle", 1, 10)
 })

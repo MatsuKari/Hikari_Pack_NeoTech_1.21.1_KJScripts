@@ -20,5 +20,6 @@ ServerEvents.recipes(Recipe => {
     Recipe.remove({ output: "reliquary:fertile_lily_pad", id: "reliquary:fertile_lily_pad" })
     Recipe.remove({ output: "reliquary:fertile_essence", id: "reliquary:fertile_essence", })
     Recipe.remove({ output: "mekanism:bio_fuel", input: "minecraft:poppy" })
+    Recipe.remove({ output: 'mysticalagriculture:soul_jar[mysticalagriculture:soul_jar={souls:0.5d,type:"mysticalagriculture:fish"}]' })
     //Receita.remove({id: })
 })
