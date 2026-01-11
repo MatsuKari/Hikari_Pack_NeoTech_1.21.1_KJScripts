@@ -99,6 +99,19 @@ ServerEvents.recipes(Recipe => {
             M: "potionsmaster:tile_mortar"
         })
 
+    Recipe.shaped("2x minecraft:zombie_head", ['C C', '   ', '   '],
+        {
+            C: "reliquary:zombie_heart"
+        }
+    )
+
+    Recipe.shaped("20x minecraft:calcite", [' A ', 'SSS', ' S '],
+        {
+            A: "mysticalagriculture:amethyst_essence",
+            S: "mysticalagriculture:stone_essence"
+        }
+    )
+
 
     /*     Recipe.shaped("minecraft:muddy_mangrove_roots", ['AB ', '   ', '   '],
             {

@@ -17,7 +17,7 @@ ServerEvents.recipes(Recipe => {
 
   /* Enriching_2("minecraft:rotten_flesh", 1, 1, "tombstone:grave_dust") */
 
-  /* Enriching_2("tombstone:grave_dust", 3, 1, "tombstone:essence_of_undeath") */
+  Enriching_2("tombstone:grave_dust", 3, 1, "tombstone:essence_of_undeath")
 
   Enriching_2("silentgear:netherwood_sapling", 1, 2, "silentgear:nether_banana")
 
