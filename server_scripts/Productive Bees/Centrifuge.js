@@ -66,6 +66,10 @@ ServerEvents.recipes(Recipe => {
   Centrifuge("productivebees:imperium", "mysticalagriculture:imperium_essence", 3, 3, "productivebees:wax", 1, "productivebees:centrifuge/mysticalagriculture/honeycomb_imperium")
 
   Centrifuge("productivebees:fluix", "ae2:fluix_crystal", 4, 4, "ae2:fluix_dust", 1, "productivebees:centrifuge/ae2/honeycomb_fluix")
+
+  Centrifuge("productivebees:spacial", "ae2:certus_quartz_crystal", 5, 5, "ae2:certus_quartz_dust", 1, "productivebees:centrifuge/ae2/honeycomb_spacial")
+
+  Centrifuge("productivebees:netherite", "minecraft:netherite_ingot", 1, 1, "minecraft:netherite_scrap", 1, "productivebees:centrifuge/raw_materials/honeycomb_netherite")
 })
 
 //ferro, ouro, lapis, ender
