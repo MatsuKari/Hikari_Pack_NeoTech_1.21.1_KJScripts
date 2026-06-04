@@ -1,11 +1,11 @@
 {
     "include": [
-        "./**/*.js",
-        "./**/*.ts"
+    "./**/*.js",
+    "./**/*.ts",
+    "../../../probe/startup/**/*.d.ts",
+    "../../../probe/packages/**/*.d.ts"
     ],
     "compilerOptions": {
-        "module": "none",
-        "moduleResolution": "node",
         "allowJs": true,
         "checkJs": false,
         "target": "ES2015",
@@ -13,7 +13,6 @@
         "noEmit": true,
         "assumeChangesOnlyAffectDirectDependencies": true,
         "rootDir": ".",
-        "baseUrl": "../../.probe/packages",
         "skipLibCheck": true,
         "skipDefaultLibCheck": true,
         "lib": [
