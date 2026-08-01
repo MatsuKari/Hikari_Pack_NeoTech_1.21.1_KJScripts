@@ -79,25 +79,25 @@ ServerEvents.recipes(Recipe => {
             T: 'alltheores:aluminum_ingot'
         })
 
-    Recipe.shaped("potionsmaster:allthemodium_oresight_powder", ['EGR', 'APM', '   '],
-        {
-            E: "potionsmaster:ender_powder",
-            G: "glowstone_dust",
-            R: "redstone",
-            A: "allthemodium:allthemodium_dust",
-            P: "potionsmaster:pestle",
-            M: "potionsmaster:tile_mortar"
-        })
-
-    Recipe.shaped("potionsmaster:unobtainium_oresight_powder", ['EGR', 'UPM', '   '],
-        {
-            E: "potionsmaster:ender_powder",
-            G: "glowstone_dust",
-            R: "redstone",
-            U: 'allthemodium:unobtainium_ingot',
-            P: "potionsmaster:pestle",
-            M: "potionsmaster:tile_mortar"
-        })
+    /*     Recipe.shaped("potionsmaster:allthemodium_oresight_powder", ['EGR', 'APM', '   '],
+            {
+                E: "potionsmaster:ender_powder",
+                G: "glowstone_dust",
+                R: "redstone",
+                A: "allthemodium:allthemodium_dust",
+                P: "potionsmaster:pestle",
+                M: "potionsmaster:tile_mortar"
+            })
+    
+        Recipe.shaped("potionsmaster:unobtainium_oresight_powder", ['EGR', 'UPM', '   '],
+            {
+                E: "potionsmaster:ender_powder",
+                G: "glowstone_dust",
+                R: "redstone",
+                U: 'allthemodium:unobtainium_ingot',
+                P: "potionsmaster:pestle",
+                M: "potionsmaster:tile_mortar"
+            }) */
 
     Recipe.shaped("2x minecraft:zombie_head", ['C C', '   ', '   '],
         {
