@@ -6,7 +6,7 @@ ServerEvents.recipes(Recipe => {
             "result":
             {
                 "count": output_count,
-                "id": output
+                "id": output,
             },
             "cookingtime": cooking_Time,
             "experience": XP
