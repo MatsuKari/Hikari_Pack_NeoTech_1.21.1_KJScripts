@@ -5,14 +5,6 @@ ServerEvents.recipes(Recipe => {
             P: "allthemodium:allthemodium_plate"
         })
 
-    /* Recipe.shaped("quarryplus:repeat_tick_module", ['APA', 'PTP', 'APM'],
-    {
-     A: "minecraft:amethyst_shard",
-     P: "minecraft:prismarine_shard",
-     T: 'minecraft:potion[potion_contents={potion:"minecraft:water"}]',
-     M: "quarryplus:marker"
-    }) */
-
     Recipe.shaped("allthemodium:allthemodium_axe", ['AA ', 'AR ', ' R '],
         {
             A: "allthemodium:allthemodium_plate",
@@ -79,26 +71,6 @@ ServerEvents.recipes(Recipe => {
             T: 'alltheores:aluminum_ingot'
         })
 
-    /*     Recipe.shaped("potionsmaster:allthemodium_oresight_powder", ['EGR', 'APM', '   '],
-            {
-                E: "potionsmaster:ender_powder",
-                G: "glowstone_dust",
-                R: "redstone",
-                A: "allthemodium:allthemodium_dust",
-                P: "potionsmaster:pestle",
-                M: "potionsmaster:tile_mortar"
-            })
-    
-        Recipe.shaped("potionsmaster:unobtainium_oresight_powder", ['EGR', 'UPM', '   '],
-            {
-                E: "potionsmaster:ender_powder",
-                G: "glowstone_dust",
-                R: "redstone",
-                U: 'allthemodium:unobtainium_ingot',
-                P: "potionsmaster:pestle",
-                M: "potionsmaster:tile_mortar"
-            }) */
-
     Recipe.shaped("2x minecraft:zombie_head", ['C C', '   ', '   '],
         {
             C: "reliquary:zombie_heart"
@@ -112,11 +84,5 @@ ServerEvents.recipes(Recipe => {
         }
     )
 
-
-    /*     Recipe.shaped("minecraft:muddy_mangrove_roots", ['AB ', '   ', '   '],
-            {
-                A: "minecraft:mud",
-                B: "minecraft:mangrove_roots"
-            }) */
 })
 

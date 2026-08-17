@@ -12,10 +12,7 @@ ServerEvents.recipes(Recipe => {
             "experience": XP
         })
     }
-    /* 
-        Smelting("potionsmaster:allthemodium_oresight_powder", 1, "potionsmaster:calcinated_allthemodium_oresight_powder", 0.5, 60)
-    
-        Smelting("potionsmaster:unobtainium_oresight_powder", 1, "potionsmaster:calcinated_unobtainium_oresight_powder", 0.5, 60) */
+
 })
 
 /*         Recipe.smelting
