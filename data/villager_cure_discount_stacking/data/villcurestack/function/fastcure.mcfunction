@@ -1,0 +1,1 @@
+execute at @s run data merge entity @e[type=minecraft:zombie_villager,limit=1,sort=nearest] {ConversionTime:80}
