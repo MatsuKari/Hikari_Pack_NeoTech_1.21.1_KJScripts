@@ -19,5 +19,4 @@ ServerEvents.recipes(Recipe =>
   }
 })
    }
-  Chemical_Infusing_Recipes("mekanismgenerators:fusion_fuel", 100, "mekanism:fissile_fuel", 100, 'kubejs:custom_stellar_fuel', 200)
 })

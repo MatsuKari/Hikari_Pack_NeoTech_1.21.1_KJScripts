@@ -11,9 +11,13 @@ StartupEvents.registry('item', allthemods => {
         .cellModel('kubejs:block/drive/lava_cell');
 })
 
-StartupEvents.registry('mekanism:chemical', event => {
-    event.create('custom_stellar_fuel')
-    .tint(0xFF0000)
+StartupEvents.registry('fluid', event => {
+    event.create('fissile_stellar_fuel')
+    .displayName('Fissile Stellar Fuel')
+    .stillTexture('kubejs:liquid/liquid')
+    .flowingTexture('kubejs:liquid/liquid_flow')
+    .tint(0x00FFFF)
+    .translucent()
 })
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
