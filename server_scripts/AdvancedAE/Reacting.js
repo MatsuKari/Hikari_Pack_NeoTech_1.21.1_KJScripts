@@ -27,8 +27,4 @@ ServerEvents.recipes(Recipe =>
 })
     }
 
-    Advanced_Reacting(1000, "kubejs:matsu_stellar_fuel", 1000, "mekanism:pellet_polonium", 10, "stellaris:fuel", 1000)
-
-    Advanced_Reacting(1000, "mekanism:ethene", 1000, "mekanism:pellet_plutonium", 10, "kubejs:matsu_stellar_fuel", 1000)
-
 })
