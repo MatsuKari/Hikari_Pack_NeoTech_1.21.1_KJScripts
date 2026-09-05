@@ -75,4 +75,6 @@ Enriching("c:raw_materials/eclipsealloy", 1, 3, "justdirethings:eclipsealloy_ing
 Enriching("c:ores/inferium", 1, 6, "mysticalagriculture:inferium_essence")
 
 Enriching("c:raw_materials/uraninite", 1, 2, "powah:uraninite")
+
+Enriching("c:raw_materials/desh", 1, 3, "ad_astra:desh_ingot")
 })
