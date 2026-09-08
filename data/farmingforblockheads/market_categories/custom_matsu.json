@@ -5,7 +5,7 @@
     },
     "icon": 
     {
-        "item": "forbidden_arcanus:growing_edelwood"
+        "id": "forbidden_arcanus:growing_edelwood"
     },
     "sortIndex": 30
 }

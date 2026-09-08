@@ -23,4 +23,6 @@ ServerEvents.recipes(Recipe =>
     Stamping(1000, 1, 'minecraft:iron_ingot', "alltheores:iron_plate", 1, "evolvedmekanism:mold_plate", 1)
 
     Stamping(1000, 1, 'mekanism:ingot_steel', "alltheores:steel_plate", 1, "evolvedmekanism:mold_plate", 1)
+
+    Stamping(1000, 1, 'ad_astra:desh_ingot', "ad_astra:desh_plate", 1, "evolvedmekanism:mold_plate", 1)
 })
