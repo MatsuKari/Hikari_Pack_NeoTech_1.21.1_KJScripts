@@ -26,6 +26,5 @@ ServerEvents.recipes(Recipe =>
   }
 })
     }
-
-    Advanced_Reacting(1000, "ad_astra:oil", 1000, "mekanism:pellet_polonium", 1, "ad_astra:fuel", 1000)
+    
 })
