@@ -33,6 +33,8 @@ ServerEvents.recipes(Recipe => {
 
   Shapeless("occultism:large_candle", "minecraft:candle")
 
+  Shapeless('potionsmaster:diamond_oresight_powder', ['minecraft:diamond', 'potionsmaster:tile_mortar', 'potionsmaster:pestle', "minecraft:redstone"])
+
   /*   Shapeless("kubejs:silent_vibranium_plate", ["allthemodium:vibranium_ingot", "c:tools/hammer"])
   
     Shapeless("kubejs:silent_unobtainium_plate", ["allthemodium:unobtainium_ingot", "c:tools/hammer"]) */

@@ -22,19 +22,20 @@ ServerEvents.recipes(event => {
         );
 
     }
+    /* 
+    
+        AddSoil("mysticalagradditions:insanium_farmland", "mysticalagradditions:insanium_farmland", 3.5, 1.0)
+    
+        BotanyPot("silentgear:netherwood_sapling", "mysticalagradditions:insanium_farmland", "silentgear:netherwood_sapling", "silentgear:nether_banana", 1, 100, 1)
+    
+        BotanyPot("integrateddynamics:menril_sapling", "mysticalagradditions:insanium_farmland", "integrateddynamics:menril_sapling", "integrateddynamics:menril_log", 1, 80, 1)
+    
+        BotanyPot("minecraft:mangrove_propagule", "mysticalagradditions:insanium_farmland", "minecraft:mangrove_propagule", "minecraft:mangrove_log", 1, 80, 1)
+    
+        BotanyPot("minecraft:poppy", "mysticalagradditions:insanium_farmland", "minecraft:poppy", "minecraft:poppy", 1, 160, 2)
+    }) */
 
-
-    AddSoil("mysticalagradditions:insanium_farmland", "mysticalagradditions:insanium_farmland", 3.5, 1.0)
-
-    BotanyPot("silentgear:netherwood_sapling", "mysticalagradditions:insanium_farmland", "silentgear:netherwood_sapling", "silentgear:nether_banana", 1, 100, 1)
-
-    BotanyPot("integrateddynamics:menril_sapling", "mysticalagradditions:insanium_farmland", "integrateddynamics:menril_sapling", "integrateddynamics:menril_log", 1, 80, 1)
-
-    BotanyPot("minecraft:mangrove_propagule", "mysticalagradditions:insanium_farmland", "minecraft:mangrove_propagule", "minecraft:mangrove_log", 1, 80, 1)
-
-    BotanyPot("minecraft:poppy", "mysticalagradditions:insanium_farmland", "minecraft:poppy", "minecraft:poppy", 1, 160, 2)
 })
-
 /*     Recipe.custom(
         {
             "type": "botanypots:block_derived_crop",
